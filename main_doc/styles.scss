@@ -83,7 +83,7 @@ main {
               }
               .buns {
                 position: absolute;
-                left: 100%;
+                left: 85%;
                 top: calc(100% - 360px);
             }
         }
@@ -444,5 +444,10 @@ footer {
  @media screen and (max-width: 1660px) {
     .buns {
         left: 90%;
+    }
+ }
+ @media screen and (max-width: 1400px) {
+    .buns {
+        left: 85%;
     }
  }

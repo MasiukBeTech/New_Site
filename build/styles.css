@@ -78,7 +78,7 @@ main div.header div.header-content p {
 }
 main div.header div.header-content .buns {
   position: absolute;
-  left: 100%;
+  left: 85%;
   top: calc(100% - 360px);
 }
 main div.header .header-footer {
@@ -402,6 +402,11 @@ footer .bg-down {
 @media screen and (max-width: 1660px) {
   .buns {
     left: 90%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .buns {
+    left: 85%;
   }
 }
 
