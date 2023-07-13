@@ -120,7 +120,7 @@ main {
                 align-items: flex-end;
 
                 span{
-                    color: #FFF;
+                    color: $third-color;
                     font-size: 18px;
                     font-weight: 500;
                     margin: 0 0 20px 20px;
@@ -156,7 +156,7 @@ main {
             }
 
             h2 {
-                color: #FFF;
+                color: $third-color;
                 text-align: right;
                 font-family: Sen, sans-serif;
                 font-size: 144px;
@@ -268,7 +268,7 @@ main {
                 
                 .bakery-name-product {
                     color: $main-color;
-                    font-size: 16px;
+                    font-size: 1em;
                     font-weight: 900;
                     line-height: 24px;
                 }

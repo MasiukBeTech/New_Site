@@ -111,7 +111,7 @@ main div.header .header-footer .phone {
   align-items: flex-end;
 }
 main div.header .header-footer .phone span {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   margin: 0 0 20px 20px;
@@ -142,7 +142,7 @@ main .work .work-text p {
   width: 25%;
 }
 main .work .work-text h2 {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Sen, sans-serif;
   font-size: 144px;
@@ -246,7 +246,7 @@ main .work .work-button {
 }
 .servises .servises-content .servises-type .bakery-card-product .bakery-name-product {
   color: #C98A40;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 900;
   line-height: 24px;
 }
