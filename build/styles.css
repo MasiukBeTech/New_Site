@@ -1,0 +1,413 @@
+body.main-container {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-button {
+  background-color: #FDBA10;
+  color: #fff;
+  border-radius: 30px;
+  width: 194px;
+  height: 60px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+}
+.main-button:hover {
+  background-color: #ff31ee;
+  color: #fff;
+}
+
+main {
+  background-image: url(../img/Mask_Group.svg);
+  background-size: auto;
+  background-position: center;
+  height: 1680px;
+  background-color: #fff;
+}
+main div.header {
+  height: 840px;
+  position: relative;
+}
+main div.header div.bg-header {
+  background-color: #C98A40;
+  width: 67%;
+  height: 640px;
+  position: relative;
+}
+main div.header div.content-logo {
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  width: 270px;
+  display: flex;
+  padding: 0 12px;
+}
+main div.header div.content-logo span {
+  font-family: "Sen", sans-serif;
+  font-size: 28px;
+  color: #fff;
+  margin: 0 0 0 8px;
+  line-height: 30px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+main div.header div.header-content {
+  position: absolute;
+  left: 10%;
+  top: calc(100% - 600px);
+  max-width: 620px;
+  z-index: 2;
+}
+main div.header div.header-content h1 {
+  color: #fff;
+  font-family: "Sen", sans-serif;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+main div.header div.header-content p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 40px;
+}
+main div.header div.header-content .buns {
+  position: absolute;
+  left: 85%;
+  top: calc(100% - 360px);
+}
+main div.header .header-footer {
+  width: 67%;
+  height: 200px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+main div.header .header-footer .massmedia {
+  width: 33%;
+}
+main div.header .header-footer .massmedia .massmedia-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 5px 0;
+}
+main div.header .header-footer .massmedia .massmedia-img a {
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+main div.header .header-footer .phone {
+  width: 67%;
+  background-color: #C98A40;
+  display: flex;
+  align-items: flex-end;
+}
+main div.header .header-footer .phone span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px 20px;
+}
+main .work {
+  height: 840px;
+  position: relative;
+}
+main .work .bg-body-main {
+  background-color: #C98A40;
+  width: 67%;
+  height: 840px;
+  position: absolute;
+  right: 0;
+}
+main .work .work-text {
+  height: 330px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+main .work .work-text p {
+  color: #C98A40;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  width: 25%;
+}
+main .work .work-text h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Sen, sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+main .work .work-img {
+  height: 334px;
+  position: relative;
+  z-index: 2;
+}
+main .work .work-img .work-different-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+main .work .work-button {
+  position: absolute;
+  bottom: 5%;
+  right: calc(50% - 96px);
+  z-index: 2;
+}
+
+.baker {
+  height: 840px;
+  position: relative;
+  width: 100%;
+}
+.baker .bg-body-baker {
+  background-color: #C98A40;
+  width: 67%;
+  height: 840px;
+  margin: 0;
+}
+.baker .about-us-baker {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  height: 840px;
+  align-items: center;
+}
+.baker .about-us-baker .baker-information {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 840px;
+  margin-right: 5%;
+}
+.baker .about-us-baker .baker-information h2 {
+  color: #FFF;
+  text-align: left;
+  font-family: Sen, sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+  margin: 0;
+}
+.baker .about-us-baker .baker-information p {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.servises {
+  height: 840px;
+}
+.servises .servises-content {
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.servises .servises-content h2 {
+  color: #C98A40;
+  font-family: Sen, sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.servises .servises-content .servises-type {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.servises .servises-content .servises-type .bakery-card-product {
+  border-color: #FFD8AB;
+  border-radius: 8%;
+}
+.servises .servises-content .servises-type .bakery-card-product .bakery-name-product {
+  color: #C98A40;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 24px;
+}
+.servises .servises-content .servises-type .bakery-card-product .bakery-description-product {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.servises .servises-content .work-button {
+  text-align: center;
+}
+
+.testymonials {
+  height: 840px;
+  background-image: url(../img/Mask_Group_brown.svg);
+  background-size: auto;
+  background-position: center;
+  background-color: #C98A40;
+}
+.testymonials .content-testymonials {
+  height: 840px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+.testymonials .content-testymonials h2 {
+  color: #fff;
+  font-family: Sen, sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.testymonials .content-testymonials .type-content-testymonials {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.testymonials .content-testymonials .type-content-testymonials .type-testymonials {
+  width: 80%;
+}
+.testymonials .content-testymonials .type-content-testymonials .type-testymonials .testymonials-card {
+  border-radius: 25px;
+  border-color: #fff;
+  padding: 5px 20px;
+}
+.testymonials .content-testymonials .type-content-testymonials .type-testymonials .testymonials-card .testymonials-name {
+  color: #C98A40;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+}
+.testymonials .content-testymonials .type-content-testymonials .type-testymonials .testymonials-card .testymonials-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.testymonials .content-testymonials .testymonials-button {
+  text-align: center;
+}
+
+footer {
+  height: 671px;
+  position: relative;
+}
+footer .contuct-us-filling {
+  height: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+footer .contuct-us-filling h2 {
+  color: #C98A40;
+  font-family: Sen, sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+  text-align: center;
+}
+footer .contuct-us-filling .contuct-us-form {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+footer .contuct-us-filling .contuct-us-form form {
+  height: 40%;
+}
+footer .contuct-us-filling .contuct-us-form form .form-content-meaning {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 90%;
+}
+footer .contuct-us-filling .contuct-us-form form .form-content-meaning .form-input-meaning {
+  border-radius: 61px;
+  background: #FFD39F;
+  border-color: #FFD39F;
+  height: 56px;
+  width: 374px;
+}
+footer .contuct-us-filling .contuct-us-form form .form-content-meaning .form-input-meaning:hover {
+  background-color: #FDBA10;
+}
+footer .contuct-us-filling .contuct-us-form form .button-sign-in {
+  text-align: center;
+}
+footer .contuct-us-filling .contuct-us-form form .button-sign-in .sign-in {
+  background-color: #fff;
+  color: #C98A40;
+  border: 2px solid #C98A40;
+  border-radius: 30px;
+  width: 168px;
+  height: 56px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+}
+footer .contuct-us-filling .contuct-us-form form .button-sign-in .sign-in:hover {
+  background-color: #FFD39F;
+}
+footer .contuct-us-filling .contuct-us-form .meaning-in-form {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+footer .contuct-us-filling .contuct-us-form .meaning-in-form .name-form {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+footer .bg-down {
+  width: 100%;
+  background-color: #584125;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1660px) {
+  .buns {
+    left: 90%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .buns {
+    left: 85%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
